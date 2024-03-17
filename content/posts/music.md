@@ -29,9 +29,15 @@ My preference for acquiring music is to look for MP3s[^2] first on Bandcamp, and
 ### Hosting
 It's pleasantly straightforward to make your own collection of music available on a self-hosted platform like [Navidrome](https://www.navidrome.org/), which gives you streaming ergonomics without any of the aforementioned costs. Navidrome is a server that takes care of indexing and serving your music collection. While it comes with a decent web UI, it implements the Subsonic API, which makes it possible to use any number of other clients (including mobile phone apps) with it.
 
-I'm personally not interested in (or capable of) doing all the sysadmin work required to completely host it myself, so I'm giving [PikaPods](https://www.pikapods.com/) a try, and it's been great so far.
+I'm personally not interested in (or capable of) doing all the sysadmin work required to completely host it myself, so I'm giving [PikaPods](https://www.pikapods.com/) a try, and it's been great so far. My instance is available [here](navidrome.yeetfield.com).
+
+### Maintenance
+Maintaining your own collection of music means dealing with metadata issues and backups. Bandcamp is great at providing cover art and reliably-named tracks, but you'll find that the heterogeneity of sources of digital music will manifest in a similar heterogeneity of metadata, and that some manual care will be required. A nominal amount of work will also need to go into maintaining backups, where the typical advice applies. You should select a backup strategy suited for your personal risk tolerance. It's worth developing scripts in Python or some shell language to make this maintenance work easier.
+
+### Drawbacks
+Doing things this way requires some manual work and more upfront costs, due to having to buy music. There's also no easy and reliable way to try out an album before deciding to buy it. 
 
 [^1]: https://www.newyorker.com/culture/cultural-comment/imagine-a-world-without-spotify
 [^2]: I realized via https://www.npr.org/sections/therecord/2015/06/02/411473508/how-well-can-you-hear-audio-quality that lossless formats didn't make sense for me to have
 [^3]: https://en.wikipedia.org/wiki/Ripping#North_America
-[^4]: there are of, course, interesting edge cases, where an artist intentionally makes it difficult to buy their music, because they're trying to scrub their own work from the digital record entirely. I do think there are cases where one should give up on trying to have a piece of music.
+[^4]: There are of, course, interesting edge cases where an artist intentionally makes it difficult to buy their music, because they're trying to scrub their own work from the digital record entirely. I do think there are cases where one should give up on trying to have a piece of music.

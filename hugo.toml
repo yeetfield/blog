@@ -1,0 +1,4 @@
+baseURL = 'https://yeetfield.com'
+languageCode = 'en-us'
+title = 'nermal delenda est'
+theme = 'sk1'

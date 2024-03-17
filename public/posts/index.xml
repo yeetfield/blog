@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on nermal delenda est</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:50887/posts/</link>
     <description>Recent content in Posts on nermal delenda est</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2024 12:06:19 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50887/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music</title>
-      <link>http://localhost:1313/posts/music/</link>
+      <link>http://localhost:50887/posts/music/</link>
       <pubDate>Sun, 17 Mar 2024 12:06:19 -0500</pubDate>
-      <guid>http://localhost:1313/posts/music/</guid>
-      <description>Introduction Use Bandcamp.</description>
+      <guid>http://localhost:50887/posts/music/</guid>
+      <description>Deleting Spotify Spotify has been effective at being my one-stop shop for music discovery, storage, and listening for about a decade now. While convenient, I&amp;rsquo;ve been convinced that there are several compelling reasons1 to wean myself off it.&#xA;Royalties For starters, it doesn&amp;rsquo;t pay small artists as much as I&amp;rsquo;d like; I end up buying albums directly anyway, so I&amp;rsquo;d prefer to make use of those purchases rather than just treat these digital album acquisitions as glorified tips.</description>
     </item>
   </channel>
 </rss>

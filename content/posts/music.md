@@ -29,7 +29,7 @@ My preference for acquiring music is to look for MP3s[^2] first on Bandcamp, and
 ### Hosting
 It's pleasantly straightforward to make your own collection of music available on a self-hosted platform like [Navidrome](https://www.navidrome.org/), which gives you streaming ergonomics without any of the aforementioned costs. Navidrome is a server that takes care of indexing and serving your music collection. While it comes with a decent web UI, it implements the Subsonic API, which makes it possible to use any number of other clients (including mobile phone apps) with it.
 
-I'm personally not interested in (or capable of) doing all the sysadmin work required to completely host it myself, so I'm giving [PikaPods](https://www.pikapods.com/) a try, and it's been great so far. My instance is available [here](navidrome.yeetfield.com).
+I'm personally not interested in (or capable of) doing all the sysadmin work required to completely host it myself, so I'm giving [PikaPods](https://www.pikapods.com/) a try, and it's been great so far. My instance is available [here](https://navidrome.yeetfield.com).
 
 ### Maintenance
 Maintaining your own collection of music means dealing with metadata issues and backups. Bandcamp is great at providing cover art and reliably-named tracks, but you'll find that the heterogeneity of sources of digital music will manifest in a similar heterogeneity of metadata, and that some manual care will be required. A nominal amount of work will also need to go into maintaining backups, where the typical advice applies. You should select a backup strategy suited for your personal risk tolerance. It's worth developing scripts in Python or some shell language to make this maintenance work easier.

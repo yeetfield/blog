@@ -40,7 +40,7 @@ My preference for acquiring music is to look for MP3s[^6] first on Bandcamp, and
 ### Hosting
 It's pleasantly straightforward to make your own collection of music available on a self-hosted platform like [Navidrome](https://www.navidrome.org/), which gives you streaming ergonomics without any of the costs of Spotify that I mention above. Navidrome is a server that takes care of indexing and serving your music collection. While it comes with a decent web UI, it implements the Subsonic API, which makes it possible to use any number of other clients (including mobile phone apps) with it.
 
-I'm personally not interested in (or capable of) doing all the sysadmin work required to completely host it myself, so I gave [PikaPods](https://www.pikapods.com/) a try, but I found myself frustrated at the lack of support for anything beyond FTP, which meant I couldn't use rsync or even scp to move files around. In the long run, the ergonomics of adding music is vital to the whole self-hosting experience. I'm currently on the Oracle Cloud Infrastructure[^5] free tier, which has been decent and not frustrating so far. My instance is available [here](https://navidrome.yeetfield.com).
+I'm personally not interested in (or capable of) doing all the sysadmin work required to completely host it myself, so I gave [PikaPods](https://www.pikapods.com/) a try, but I found myself frustrated at the lack of support for anything beyond FTP, which meant I couldn't use rsync or even scp to move files around. In the long run, the ergonomics of adding music is vital to the whole self-hosting experience. I'm currently on the Oracle Cloud Infrastructure[^9] free tier, which has been decent and not frustrating so far. My instance is available [here](https://navidrome.yeetfield.com).
 
 ### Maintenance
 Maintaining your own collection of music means dealing with metadata issues and backups. Bandcamp is great at providing cover art and reliably-named tracks, but you'll find that the heterogeneity of sources of digital music will manifest in a similar heterogeneity of metadata, and that some manual care will be required. This is still less work than maintaining a physical collection (hauling, cleaning, protecting vinyl or CDs). A nominal amount of work will also need to go into maintaining digital backups, where the typical advice applies. You should select a backup strategy suited for your personal risk tolerance. It's worth developing scripts to make this maintenance work easier (again, not possible with physical collections).
@@ -50,9 +50,10 @@ Doing things this way requires some manual work and more upfront costs, due to h
 
 [^1]: https://www.newyorker.com/culture/cultural-comment/imagine-a-world-without-spotify
 [^2]: Decoupling from reddit has proven to be much harder.
-[^3]: I'll always have a soft spot for them because they made me aware of Lankum's *Between the Earth and Sky*
+[^3]: I'll always have a soft spot for them because they made me aware of Lankum's *Between the Earth and Sky*.
 [^4]: In the colloquial sense of the word.
 [^5]: In other scenarios, I use Patreon directly. I also think Nebula is a particularly good idea for the day that YouTube finally clamps down on adblocking.
 [^6]: I realized via https://www.npr.org/sections/therecord/2015/06/02/411473508/how-well-can-you-hear-audio-quality that lossless formats didn't make sense for me to have
 [^7]: https://en.wikipedia.org/wiki/Ripping#North_America
 [^8]: There are of, course, interesting edge cases where an artist intentionally makes it difficult to buy their music, because they're trying to scrub their own work from the digital record entirely. I do think there are cases where one should give up on trying to have a piece of music.
+[^9]: The intention of this whole enterprise being to try alternatives to incumbents like Spotify, AWS, and Google Cloud. Reddit also indicated that this product was surprisingly good for an Oracle offering.

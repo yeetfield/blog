@@ -44,7 +44,7 @@ My preference for acquiring music is to look for MP3s[^6] first on Bandcamp, and
 ### Hosting
 It's pleasantly straightforward to make your own collection of music available on a self-hosted platform like [Navidrome](https://www.navidrome.org/), which gives you streaming ergonomics without any of the costs of Spotify that I mention above. Navidrome is a server that takes care of indexing and serving your music collection. While it comes with a decent web UI, it implements the Subsonic API, which makes it possible to use any number of other clients (including mobile phone apps) with it. I donate $9 to the primary developer's Ko-fi in lieu of payments to Spotify.
 
-I'm personally not interested in (or capable of) doing all the sysadmin work required to completely host it myself, so I gave [PikaPods](https://www.pikapods.com/) a try, but I found myself frustrated at the lack of support for anything beyond FTP, which meant I couldn't use `rsync` or even `scp` to move files around. In the long run, the ergonomics of adding music is vital to the whole self-hosting experience. I'm currently on the Oracle Cloud Infrastructure[^9] free tier, which has been decent and not frustrating so far[^10]. With a proper Linux VM, adding new music is now as simple as running `rsync`. 
+I'm personally not interested in (or capable of) doing all the sysadmin work required to completely host it myself, so I gave [PikaPods](https://www.pikapods.com/) a try, but I found myself frustrated at the lack of support for anything beyond FTP, which meant I couldn't use `rsync` or even `scp` to move files around. In the long run, the ergonomics of adding music is vital to the whole self-hosting experience. I'm currently on the Oracle Cloud Infrastructure[^9] free tier, which was decent and not frustrating[^10] until my free trial expired, at which point OCI deleted my Intel-based VM (and all the music I'd uploaded) without warning. The pain of learning how to use cloud services aside, adding new music is now as simple as running `rsync`. 
 
 My instance is available [here](https://navidrome.yeetfield.com).
 
@@ -63,6 +63,6 @@ Doing things this way requires some manual work and more upfront costs, due to h
 [^7]: https://en.wikipedia.org/wiki/Ripping#North_America
 [^8]: There are of, course, interesting edge cases where an artist intentionally makes it difficult to buy their music, because they're trying to scrub their own work from the digital record entirely. I do think there are cases where one should give up on trying to have a piece of music.
 [^9]: The intention of this whole enterprise being to try alternatives to incumbents like Spotify, AWS, and Google Cloud. Reddit also indicated that this product was surprisingly good for an Oracle offering.
-[^10]: My only wish at this point being the addition of a way to add SSH keys from the web interface.
+[^10]: My only wish as of July 2024 being the addition of a way to add SSH keys from the web interface.
 [^backup]: `rclone` seems to be the primary recommendation for this sort of thing, featuring support for a vast number of storage backends, although I've not yet configured it myself.
 [^movie]: An exception must be made for *The Garfield Movie* (2024).
